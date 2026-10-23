@@ -97,3 +97,6 @@ def test_scale():
             else None
         )
     }
+
+# json dumps() means Python to JSON string
+# json loads() means json string to python
