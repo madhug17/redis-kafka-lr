@@ -22,5 +22,7 @@ def limited_endpoint():
         "message" : "Request allowed",
         "requests_used": count,
         "limit": 5,
-        "ttl":red.ttl(key)
+        "ttl":red.ttl(key),
+        "rest-clicks-available":5-count
+
     }
